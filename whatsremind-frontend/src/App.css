@@ -1,0 +1,144 @@
+*{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9595, #5358ff);
+}
+
+.homepage {
+  min-width: 100%;
+  min-height: 100%;
+  background: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to bottom right, rgb(255, 253, 125), rgb(151, 250, 184), rgb(253, 209, 158)) */
+  background: linear-gradient(135deg, #ff9595, #5358ff);
+  /* background: linear-gradient(135deg, #3498db, #8e44ad); */
+
+}
+
+.homepage_header {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  min-width: 20%;
+  min-height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background: white;
+  position: relative
+}
+
+.homepage_header > .button {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  width: 100%;
+  text-align:center;
+  padding: 0.5rem 0;
+  margin: 1rem 0 ;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.homepage_header > .button:hover {
+  background: #005acf;
+  border: 1px solid #005acf;
+  color: #fff;
+  font-size: 1.25rem;
+  width: 100%;
+  text-align:center;
+  padding: 0.5rem 0;
+  margin: 1rem ;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.datePicker {
+  text-align: center;
+  font-weight: 500;
+  font-size: medium;
+  color: black;
+}
+
+.homepage_header > input{
+  border: 1px solid grey;
+  outline: none;
+  color: #1d2129;
+  margin: 1rem 1rem;
+  padding: 0.4rem 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.homepage_body {
+  width: 100%;
+}
+
+.reminder_card {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  background: white;
+  border-radius: 8px;
+  margin: 2rem;
+  padding: 1rem;
+  max-width:350px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.reminder_card > h3 {
+  margin-bottom: rem;
+  color: #1877f2;
+}
+
+.reminder_card > p {
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.reminder_card > .button {
+  background: #d11a2a;
+  border: 1px solid #d11a2a;
+  color: #fff;
+  font-size: 1.25rem;
+  width: inherit;
+  text-align:center;
+  padding: 0.5rem 0;
+  margin: 0.5rem ;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.reminder_card > .button:hover {
+  background: #ab0311;
+  border: 1px solid #ab0311;
+  color: #fff;
+  font-size: 1.25rem;
+  width: inherit;
+  text-align:center;
+  padding: 0.5rem 0;
+  margin: 0.5rem ;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.homepage_header input{
+ padding: 10px 5px;
+ border-radius: 5px;
+ border: 1px solid #000000;
+}
