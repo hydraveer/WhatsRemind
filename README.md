@@ -10,7 +10,7 @@ Schedule reminders for specific date &amp; time and get notified on WhatsApp.
 Screenshot-1 : App Interface
 
 
-![App Screenshot](screenshot/Screenshot (38).png)
+![App Screenshot](screenshot/Screenshot(38).png)
 
 
 App Screenshot, Soothing and Easy to use User-Interface. The list of all the reminders is displayed with the date and time. User would get a WhatsApp message for the scheduled time.
@@ -20,7 +20,7 @@ App Screenshot, Soothing and Easy to use User-Interface. The list of all the rem
 Screenshot-2 : WhatsApp Chat- Message with the reminders
 
 
-![WhatsApp Notification](screenshot/Screenshot (39).png)
+![WhatsApp Notification](screenshot/Screenshot(39).png)
 
 
 Screenshot of WhatsApp Messages received from WhatsRemind Contact.
